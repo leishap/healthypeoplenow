@@ -1,0 +1,112 @@
+/* 
+    Document   : default
+    Created on : Feb 6, 2009, 11:41:37 AM
+    Author     : Leisha Penny
+    Description:
+        Purpose of the stylesheet follows.
+/* Default style sheet for the HealthNow web site.*/
+
+/* TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+html {
+        margin:0;
+        padding:0
+}
+
+body{
+        width:80%;
+        margin:auto;
+        padding:0;
+        font: 76% arial,sans-serif;
+        text-align:center;
+}
+p{
+        margin:0 10px 10px;
+    }
+a{
+        display:block;
+        color: #981793;
+        padding:10px
+    }
+div#banner {
+        height: 70px;
+        margin:0;
+        background-color:#EEE;
+        border:medium solid #EEE;
+        color: #79B30B;
+        }
+
+div#banner h1{
+        height: 70px;
+        line-height:70px;
+        margin:0px;
+        padding-left:10px;
+        background-color:#EEE;
+        border:medium solid #EEE;
+        color: #79B30B;
+        text-align: center;
+        }
+
+div#container{
+        border: none;
+        overflow: auto;
+        text-align:left;
+        margin:0 auto;
+	}
+
+div#lcol{
+        background:#FF8539;
+        width: 15.5%;
+        height:500px;
+        padding: 1%;
+        margin:.5%;
+        font-size: 12px;
+        float:left;
+        border:solid medium #EEE;
+        text-align: center;        
+}
+div#content{
+        line-height:1.4;
+        width:58%;
+        height:500px;
+        padding:1%;
+        margin:.5% 0% 0% 0%;
+        font-size:12px;
+        float:left;
+        border:solid medium #EEE;
+        background-color:#FFFFFF;
+        text-align: center;       
+}
+div#rcol{
+        width: 16.5%;
+        height:500px;
+        padding:1%;
+        margin:.5%;
+        font-size: 12px;
+        float:left;
+        border:solid medium #EEE;
+        background:#B9CAFF;
+        text-align: center;        
+}
+
+div#footer{
+
+        clear:left;width:100%;
+        background: #333;
+        color: #FFF;
+        font-size:small;
+        height: 60px;
+        margin:.5%;
+        border:solid medium #EEE;
+        text-align: center;        
+}
+
+div#footer p{
+        margin:0;
+        padding:5px 10px
+    }
+
+
+
